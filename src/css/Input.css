@@ -1,0 +1,34 @@
+.div-inputs {
+  width: 100%;
+}
+
+.input {
+  background-color: transparent;
+  border: 3px solid #652d54;
+  border-radius: 27px;
+  padding: 10px;
+  color: #fff;
+  height: 50px;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #bbb;
+  font-weight: 600;
+}
+
+.nombre {
+  background-color: transparent;
+  border: 3px solid #652d54;
+  border-radius: 27px;
+  padding: 10px;
+  color: #fff;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.nombre::placeholder {
+  color: #bbb;
+  font-weight: 600;
+}
