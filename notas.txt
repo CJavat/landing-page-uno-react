@@ -1,7 +1,0 @@
-Código para el Gradiant Color:
-
-background: rgb(124,72,197);
-background: -moz-linear-gradient(90deg, rgba(124,72,197,1) 0%, rgba(165,92,207,1) 49%, rgba(86,53,184,1) 91%, rgba(58,40,177,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(124,72,197,1) 0%, rgba(165,92,207,1) 49%, rgba(86,53,184,1) 91%, rgba(58,40,177,1) 100%);
-background: linear-gradient(90deg, rgba(124,72,197,1) 0%, rgba(165,92,207,1) 49%, rgba(86,53,184,1) 91%, rgba(58,40,177,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7c48c5",endColorstr="#3a28b1",GradientType=1);

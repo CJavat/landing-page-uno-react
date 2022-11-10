@@ -1,0 +1,15 @@
+.contenedor-checkbox {
+  width: 100%;
+  display: flex;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.label {
+  color: #bbb;
+}
+
+.important-text {
+  color: #ee3a57;
+  font-weight: 400;
+}

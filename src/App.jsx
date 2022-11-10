@@ -1,5 +1,8 @@
 import "./App.css";
 import Input from "./components/Input";
+import CheckBox from "./components/CheckBox";
+import Button from "./components/Button";
+import SignIn from "./components/SignIn";
 
 function App() {
   return (
@@ -23,26 +26,31 @@ function App() {
           />
         </div>
         <Input
-            clase="input"
-            type="text"
-            id="email"
-            name="email"
-            placeholder="Email"
-          />
+          clase="input"
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Email"
+        />
         <Input
-            clase="input"
-            type="password"
-            id="password"
-            name="password"
-            placeholder="Password"
-          />
+          clase="input"
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+        />
         <Input
-            clase="input"
-            type="password"
-            id="confirmPassword"
-            name="confirmPassword"
-            placeholder="Confirm Password"
-          />
+          clase="input"
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          placeholder="Confirm Password"
+        />
+        <CheckBox />
+        <Button />
+      </div>
+      <div className="contenedor-signin">
+        <SignIn />
       </div>
     </div>
   );

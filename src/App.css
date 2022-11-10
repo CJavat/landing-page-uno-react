@@ -36,7 +36,6 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: flex-start;
-  border: 1px solid green;
 }
 
 .inputs-nombre {
@@ -44,5 +43,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid red; */
+}
+
+.contenedor-signin {
+  align-self: center;
+  width: 80%;
+  height: 50px;
+  margin: 4rem 0 2rem 0;
+  display: flex;
+  justify-content: space-evenly
 }

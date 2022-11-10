@@ -1,5 +1,10 @@
 .div-inputs {
   width: 100%;
+  position: relative;
+}
+.div-inputs:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .input {
@@ -31,4 +36,11 @@
 .nombre::placeholder {
   color: #bbb;
   font-weight: 600;
+}
+
+.eye-icon {
+  width: 30px;
+  position: absolute;
+  right: 15px;
+  top: 10px;
 }
