@@ -6,7 +6,13 @@ import OpenEye from '../icons/open-eye.png';
 
 function Input(props) {
 
-  const crearOjito = () => {
+  const crearOjitoCerrado = () => {
+    return(
+      <img src="" alt="" />
+    );
+  };
+
+  const crearOjitoAbierto = () => {
     return(
       <img src="" alt="" />
     );
